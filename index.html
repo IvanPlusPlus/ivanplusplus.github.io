@@ -1,0 +1,35 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rena Readbooks</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+   <div id="wrapper">
+   <header>
+      <div class="container">
+        <div id="logo">Rena Readbooks</div>
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Articles</a>
+            <a href="#">Reviews</a>
+            <a href="#">About me</a>
+          </nav>
+      </div>
+     </header>
+    </div>
+
+  <script src="js/jquery-3.0.0.js"></script>
+  <script>
+   $(document).on('scroll',function(){
+   	  if($(this).scrollTop() > 1){
+   	  		$('header').addClass('sticky');
+   	  } else {
+   	  		$('header').removeClass('sticky');
+   	  }
+   });
+  </script>
+  </body>
+</html>
