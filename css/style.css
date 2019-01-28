@@ -58,11 +58,11 @@ header.sticky nav a {
 	width:100%;
 	max-width:1024px;
 	margin:0 auto;
-	margin-top: 60px;
+	margin-top: 80px;
 }
 #introtext {
 	font-family: cursive;
-	font-size: 4vw;
+	font-size:25px;
 	color:gray;
 }
 /*for arrow to top+++++++++++++*/
