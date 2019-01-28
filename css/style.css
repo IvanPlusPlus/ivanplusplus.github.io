@@ -6,6 +6,7 @@ html, body {
 	padding:0;
 	width:100%;}
 #wrapper {
+	background-color: #ffd9b3;
 	margin:0;
 	padding:0;
 	height:auto;
@@ -28,7 +29,7 @@ header {
 	max-width:1024px;
 	margin:0 auto;}
 #logo {
-	font-family:sans-serif;
+	font-family:fantasy;
 	font-size:35px;
 	float:left;
 	color:#800080;}
@@ -53,7 +54,17 @@ header.sticky #logo {
 header.sticky nav a {
 	font-size:16px;
 	color:#800080;}
-
+#homepagecontent {
+	width:100%;
+	max-width:1024px;
+	margin:0 auto;
+	margin-top: 60px;
+}
+#introtext {
+	font-family: cursive;
+	font-size: 4vw;
+	color:gray;
+}
 /*for arrow to top+++++++++++++*/
 .scroll-to-top {
     width:50px;
