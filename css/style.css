@@ -1,12 +1,10 @@
 @charset utf-8
 /*CSS document*/
-
 html, body {
 	margin:0;
 	padding:0;
 	width:100%;}
 #wrapper {
-	background-color: #ffd9b3;
 	margin:0;
 	padding:0;
 	height:auto;
@@ -54,6 +52,7 @@ header.sticky #logo {
 header.sticky nav a {
 	font-size:16px;
 	color:#800080;}
+
 #homepagecontent {
 	width:100%;
 	max-width:1024px;
@@ -61,9 +60,12 @@ header.sticky nav a {
 	margin-top: 80px;
 }
 #introtext {
+	margin:0 20px;
 	font-family: cursive;
-	font-size:25px;
+	font-size:20px;
 	color:gray;
+	float: left;
+	max-width: 300px;
 }
 /*for arrow to top+++++++++++++*/
 .scroll-to-top {
