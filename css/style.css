@@ -16,7 +16,7 @@ header {
 header {
 	height:80px;
 	width:100%;
-	background:#ff4d94;
+	background:#4d2600;
 	color:#fff;
 	line-height:80px;
 	position:fixed;
@@ -30,29 +30,29 @@ header {
 	font-family:fantasy;
 	font-size:35px;
 	float:left;
-	color:#800080;}
+	color:#e60000;}
 nav {
 	float:right;
 	font-family:helvetica;}
 nav a {
-	color:#800080;
+	color:#e60000;
 	font-size:18px;
 	margin:0 15px;
 	text-decoration:none;}
 nav a:hover {
 	color:#fbce2a;}
 header.sticky {
-	background:rgba(255, 153, 194,0.7);
+	background:rgba(153, 51, 0,0.7);
 	height:50px;
 	line-height:50px;
 	margin-bottom:10px;}
 header.sticky #logo {
 	font-size:22px;
-	color:#800080;}
+	color:#990000;}
 header.sticky nav a {
 	font-size:16px;
-	color:#800080;}
-
+	color:#990000;}
+header.sticky nav a:hover {color:#fbce2a;}
 #homepagecontent {
 	width:100%;
 	max-width:1024px;
