@@ -1,9 +1,19 @@
 @charset utf-8
 /*CSS document*/
+*{
+	margin: 0;
+	padding: 0;
+}
 html, body {
-	margin:0;
-	padding:0;
 	width:100%;}
+body{
+	background-image: url('../img/bg-picture.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.clr{
+	clear: both;
+}
 #wrapper {
 	margin:0;
 	padding:0;
@@ -24,6 +34,7 @@ header {
 	left:0;}
 .container {
 	width:100%;
+	min-height: 100%;
 	max-width:1024px;
 	margin:0 auto;}
 #logo {
@@ -61,11 +72,19 @@ header.sticky nav a:hover {color:#fbce2a;}
 }
 #introtext {
 	margin:0 20px;
+	text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
 	font-family: cursive;
 	font-size:20px;
-	color:gray;
+	color:#fff;
 	float: left;
 	max-width: 300px;
+}
+#main-footer {
+  background: #4d2600;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-top: 40px;
 }
 /*for arrow to top+++++++++++++*/
 .scroll-to-top {
