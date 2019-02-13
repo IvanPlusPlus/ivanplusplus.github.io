@@ -6,9 +6,8 @@
 }
 html, body {
 	width:100%;}
-body{
-	background-image: url('../img/bg-picture.jpg');
-	background-repeat: no-repeat;
+html{
+	background: url('../img/bg-picture.jpg') no-repeat center fixed;
 	background-size: cover;
 }
 .clr{
